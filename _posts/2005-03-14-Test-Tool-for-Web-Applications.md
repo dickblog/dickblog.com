@@ -1,0 +1,7 @@
+---
+layout: default
+title: "Test Tool for Web Applications"
+permalink: /2005/03/14/Test-Tool-for-Web-Applications/
+---
+
+<p><span style="FONT-WEIGHT: bold"><a href="http://selenium.thoughtworks.com/index.html" target="_blank">Selenium</a> </span>is a test tool for web applications. Selenium tests run <span style="FONT-WEIGHT: bold">directly in a browsers</span>, just as real users do. And they run in Internet Explorer, Mozilla and Firefox on Windows, Linux and Macintosh. No other test tool covers such a wide array of platforms. <br/></p><ul><li><span style="FONT-WEIGHT: bold">Browser compatability testing.</span> Test your application to see if it works correctly on different browsers and operating systems. The same script can run on any Selenium platform.<br/></li><li><span style="FONT-WEIGHT: bold">System functional testing.</span> Create regression tests to verify application functionality and user acceptance.<br/></li></ul><span style="FONT-WEIGHT: bold"><span style="FONT-WEIGHT: bold"></span></span>Selenium uses a unique mechanism which allows it to run on so multiple platforms. Installed with your application webserver, Selenium automatically deploys it's JavaScript automation engine -- the Browser Bot -- to your browser when you point it at the Selenium install point on your webserver. Thus, you must have write access to the machine your web application server is running on to install Selenium.<br/>

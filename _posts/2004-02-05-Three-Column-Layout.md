@@ -1,0 +1,8 @@
+---
+layout: default
+title: "Three Column Layout"
+permalink: /2004/02/05/Three-Column-Layout/
+---
+
+<p>I found this list of three column layout designs:</p>
+<p><a target="_blank" href="http://css-discuss.incutio.com/?page=ThreeColumnLayouts">http://css-discuss.incutio.com/?page=ThreeColumnLayouts</a><br/></p><p>Also these...<br/></p><ul><li><a href="http://webhost.bridgew.edu/etribou/layouts/" target="_blank">Ruthsarian Layouts</a> Posted by <a href="http://www.shayna.com/" target="_blank">Sandy Clarke</a> has been the best one for me so far. At the moment I'm trying the <a href="http://webhost.bridgew.edu/etribou/layouts/skidoo/lean/index.html" target="_blank">Skidoo Lean</a></li><li><a href="http://css-discuss.incutio.com/?page=ThreeColumnLayouts" target="_blank">A comprehensive list of CSS layouts</a> posted by David Collie &amp; Rober Redpath</li><li><a href="http://www.ftponline.com/reports/wdwsf/2005/bowman1/" target="_blank">No More Tables Webbcast</a> by the redesigner of Wired News Douglas Bowman - Posted by Steven Durette</li><li><a href="http://www.pixy.cz/blogg/clanky/css-3col-layout/" target="_blank">3-col layout via CSS</a> posted by Damian McKenna</li><li><a href="http://www.csscreator.com/version2/pagelayout.php" target="_blank">CSS Creator</a> as reminded to me by Daniel Schmid in my comments. Whats more annoying is that i knew about it but always forget it D'oh  </li><li><a href="http://www.ssi-developer.net/main/templates/gen.shtml" target="_blank">more css templates</a>&nbsp;<a href="http://andyjarrett.co.uk/andy/blog/index.cfm?mode=entry&amp;entry=ED548CB6-3048-28EB-0ED7DCA2965C12E1"/></li></ul>

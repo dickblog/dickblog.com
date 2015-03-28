@@ -1,0 +1,9 @@
+---
+layout: default
+title: "Cookie and Javascript Browser Check"
+permalink: /2003/08/21/Cookie-and-Javascript-Browser-Check/
+---
+
+<PRE>&lt;script language="JavaScript"&gt;<BR>	function PutCookie(name,value,expires,path,domain,secure) {<BR>		document.cookie = name + "=" +escape(value) +<BR>			( (expires) ? ";expires=" + expires.toGMTString() : "") +<BR>			( (path) ? ";path=" + path : "") + <BR>			( (domain) ? ";domain=" + domain : "") +<BR>			( (secure) ? ";secure" : "");<BR>		}</PRE><PRE>	function GetCookie(name) {<BR>		var start = document.cookie.indexOf(name+"=");<BR>		var len = start+name.length+1;<BR>		if ((!start) &amp;&amp; (name != document.cookie.substring(0,name.length))) return null;<BR>		if (start == -1) return null;<BR>		var end = document.cookie.indexOf(";",len);<BR>		if (end == -1) end = document.cookie.length;<BR>		return unescape(document.cookie.substring(len,end));<BR>	}</PRE><PRE>// try to write a cookie<BR>	PutCookie('myPayBens','cookieCheck');</PRE><PRE>// try and read that cookie<BR>	var strCookieCheck = GetCookie('myPayBens');</PRE><PRE>// if the read fails the value will be NULL<BR>	if (strCookieCheck == null) {</PRE><PRE>// so go to the error page and tell the user you need cookies<BR>		window.location.href='errorpage.html';<BR>	}<BR>&lt;/script&gt;</PRE><PRE>&lt;noscript&gt;</PRE><PRE>// if javascript is disabled, go to the error page<BR>	&lt;meta http-equiv="refresh" content="0;url=errorpage.html"&gt;<BR>&lt;/noscript&gt;<BR></PRE>
+<P><A href="http://www.4guysfromrolla.com/webtech/082400-1.shtml" target=_blank>http://www.4guysfromrolla.com/webtech/082400-1.shtml</A></P>
+<P><A href="http://tech.irt.org/articles/js064/index.htm" target=_blank>http://tech.irt.org/articles/js064/index.htm</A></P>

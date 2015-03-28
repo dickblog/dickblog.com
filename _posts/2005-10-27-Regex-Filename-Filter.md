@@ -1,0 +1,13 @@
+---
+layout: default
+title: "Regex Filename Filter"
+permalink: /2005/10/27/Regex-Filename-Filter/
+---
+
+From Jason Sheedy's <a href="http://www.jmpj.net/jason/index.cfm?mode=entry&amp;entry=20D91C98-CF1D-76B8-AD8EF03150272670" target="_blank">blog</a>,..<br/><br/><p>For anyone that's interested I've created a small function to remove
+special characters from a filename. This should work for both windows
+and unix filenames .. not sure about mac. I was surprised to not find
+anything like this built into cold fusion and also just as surprised
+that I didn't find anything like this on the web... If you find this
+useful or know of anything else around the traps that'll do the same
+thing I'd be keen to hear about it.</p><p>I'm not sure if the code will post properly on the blog. If not I'll attach a file with the source listing.&nbsp;</p><div class="code"><font color="MAROON">&lt;cffunction name=<font color="BLUE">&quot;filterFilename&quot;</font> access=<font color="BLUE">&quot;public&quot;</font> returntype=<font color="BLUE">&quot;string&quot;</font> output=<font color="BLUE">&quot;false&quot;</font><br/> &nbsp;&nbsp;&nbsp;hint=<font color="BLUE">&quot;I remove any dodgy characters from a filename and replace any spaces with underscores.&quot;</font>&gt;</font><br/> &nbsp;&nbsp;&nbsp;<font color="MAROON">&lt;cfargument name=<font color="BLUE">&quot;filename&quot;</font> type=<font color="BLUE">&quot;string&quot;</font> required=<font color="BLUE">&quot;true&quot;</font> /&gt;</font><br/> &nbsp;&nbsp;&nbsp;<font color="MAROON">&lt;cfscript&gt;</font><br/>&nbsp;&nbsp;&nbsp; var filenameRE = <font color="BLUE">&quot;[&quot;</font> &amp; <font color="BLUE">&quot;'&quot;</font> &amp; '<font color="BLUE">&quot;' &amp; &quot;</font>##<font color="BLUE">&quot; &amp; &quot;</font>/\\%&amp;`@~!,:;=\+\*\?\[\]\^\$\(\)\{\}\|]<font color="BLUE">&quot;;<br/> &nbsp;&nbsp;&nbsp; var newfilename = reReplace(arguments.filename,filenameRE,&quot;</font><font color="BLUE">&quot;,&quot;</font>all<font color="BLUE">&quot;);<br/> &nbsp;&nbsp;&nbsp; newfilename = replace(newfilename,&quot;</font> <font color="BLUE">&quot;,&quot;</font>_<font color="BLUE">&quot;,&quot;</font>all&quot;);<br/> &nbsp;&nbsp;&nbsp;<font color="MAROON">&lt;/cfscript&gt;</font><br/> &nbsp;&nbsp;&nbsp;<font color="MAROON">&lt;cfreturn newfilename /&gt;</font> <br/> <font color="MAROON">&lt;/cffunction&gt;</font></div><br/>

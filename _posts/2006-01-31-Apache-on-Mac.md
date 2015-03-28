@@ -1,0 +1,7 @@
+---
+layout: default
+title: "Apache on Mac"
+permalink: /2006/01/31/Apache-on-Mac/
+---
+
+In looking for resources on installing Apache on my Mac I found <a target="_blank" href="http://www.phpmac.com/">phpmac.com</a> which has several good articles:<br/><ul><li><a target="_blank" href="http://www.phpmac.com/articles.php?view=78">Apache on OS X - Part 1</a><br type="_moz"/></li><li><a href="http://phpmac.com/articles.php?view=244" target="_blank">Building and Installing Apache 2.2.0 and PHP 5.1.2 on Mac OS X 10.4.4</a></li><li><a href="http://www.phpmac.com/articles.php?view=23" target="_blank">Installing Apache 2 on Mac OS X</a></li><li><a href="http://phpmac.com/articles.php?view=214" target="_blank">Additional Useful Apache2 Config Settings</a></li><li><a href="http://www.phpmac.com/articles.php?view=75" target="_blank">If your httpd.conf file doesn't have this....</a></li><li><a href="http://www.phpmac.com/articles.php?view=117" target="_blank">How to run natively with Apache 2.0.xx</a></li><li><a target="_blank" href="http://www.macosx.org/software/utilities/apache.html">Apache Config in MacOSX</a></li><li><a href="http://www.simb.net/blog/index.cfm?mode=entry&amp;entry=961181D5-B0C1-EB7B-3D3BB0CA92687542" target="_blank">Installing Apache2 on Tiger</a><br type="_moz"/></li></ul>

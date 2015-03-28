@@ -1,0 +1,7 @@
+---
+layout: default
+title: "ColdFusion MX 7 Released Today"
+permalink: /2005/02/06/ColdFusion-MX-7-Released-Today/
+---
+
+Like everyone is blogging, ColdFuuion MX 7 is released today.<br/><br/>Here's a list of Macromedia info pages.<br/><ul><li><a href="http://www.macromedia.com/support/documentation/en/coldfusion/mx7/releasenotes.html" target="_blank">Release Notes</a><br type="_moz"/></li></ul><ul><li><h4><a target="_blank" href="http://www.macromedia.com/devnet/mx/coldfusion/articles/intro_cf7.html">Introducing ColdFusion MX 7</a></h4></li><li><h4><a target="_blank" href="http://www.macromedia.com/devnet/mx/coldfusion/articles/printing.html">Printing Web Pages in FlashPaper or PDF Format with ColdFusion MX 7</a></h4></li><li><h4><a target="_blank" href="http://www.macromedia.com/devnet/mx/coldfusion/articles/gateway.html">Writing and Using Event Gateways in ColdFusion MX 7</a></h4></li><li><h4><a target="_blank" href="http://www.macromedia.com/devnet/mx/coldfusion/articles/reporting.html">Building Reports in ColdFusion MX 7</a></h4></li><li><h4><a target="_blank" href="http://www.macromedia.com/devnet/mx/coldfusion/articles/cf7_security.html">Configuring ColdFusion MX 7  Security</a></h4></li></ul>

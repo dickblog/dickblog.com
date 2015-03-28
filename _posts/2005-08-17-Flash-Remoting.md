@@ -1,0 +1,7 @@
+---
+layout: default
+title: "Flash Remoting"
+permalink: /2005/08/17/Flash-Remoting/
+---
+
+in researching Flash Remoting I found these resources:<br/><ul><li><a target="_blank" href="http://www.flash-remoting.com/">http://www.flash-remoting.com/</a></li><li><a target="_blank" href="http://livedocs.macromedia.com/coldfusion/6.1/htmldocs/usingsal.htm">http://livedocs.macromedia.com/coldfusion/6.1/htmldocs/usingsal.htm</a></li><li><a target="_blank" href="http://www.macromedia.com/software/flashremoting/">http://www.macromedia.com/software/flashremoting/</a></li><li><a target="_blank" href="http://www.macromedia.com/devnet/flash/articles/ria_dataservices.html">http://www.macromedia.com/devnet/flash/articles/ria_dataservices.html</a></li><li><a target="_blank" href="http://www.macromedia.com/devnet/flash/articles/flmxpro_webservices.html">http://www.macromedia.com/devnet/flash/articles/flmxpro_webservices.html</a></li><li><a target="_blank" href="http://www.macromedia.com/devnet/flash/data_integration.html">http://www.macromedia.com/devnet/flash/data_integration.html</a></li><li><a href="http://www.flashorb.com/articles/soap_vs_flash_remoting_benchmark.shtml" target="_blank">http://www.flashorb.com/articles/soap_vs_flash_remoting_benchmark.shtml</a><br type="_moz"/></li></ul>
